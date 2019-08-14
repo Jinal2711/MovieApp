@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: black
+}
+
+
+.mycard .card-title {
+  margin-bottom: .75rem;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cardGenre {
+  white-space: nowrap;
+  white-space: nowrap;
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 5px;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 2px;
+  background-color: #F5F5F5;
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: green;
+  border-radius: 2px;
+}
+
+.movieBg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.movieBg * {
+
+  filter: none
+}
+
+
+.buttons {
+  width: 24%;
+}
+
+.table {
+  border: none;
+  color: white;
+}
+
+.swiper-slide {
+  margin-right: 40px
+}
+
+.movieDesc .d-flex span {
+  width: 50%;
+  padding: 15px;
+}
+
+.movieDesc .d-flex {
+  border-bottom: 1px solid #888
+}
+
+.movieDesc .d-flex:last-child {
+  border-bottom: none
+}
+
+.movieDesc {
+  background-color: #4a4a4a94;
+  color: #ffffff;
+  text-align: left;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.swiper-slide {
+  opacity: 0.5;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
